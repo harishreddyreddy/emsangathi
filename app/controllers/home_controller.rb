@@ -1,5 +1,8 @@
+require 'flickr_fu'
 class HomeController < ApplicationController
   def index
-    @users = User.all
+    flickr = Flickr.new(:key => "#{FlikrConfig.config[:flikr_key]}", :secret => "#{FlikrConfig.config[:flikr_secret]}")
+    @photos = flickr.photos.search(:tags => 'hussain sagar, banjara hills, dilshuknagar, malakpet',
+                                   :per_page => 50, :sort => 'date-taken-desc')
   end
 end
