@@ -1,3 +1,11 @@
+GIT
+  remote: git@github.com:joncon/flickr_fu.git
+  revision: dfa516ea6476da901317331262beeabb97cf00a2
+  specs:
+    flickr_fu (0.3.2)
+      mime-types
+      xml-magic
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -90,9 +98,6 @@ GEM
     ffi (1.4.0)
     figaro (0.6.2)
       rails (>= 3, < 5)
-    flickr_fu (0.3.2)
-      mime-types
-      xml-magic
     gherkin (2.11.6)
       json (>= 1.7.6)
     hike (1.2.1)
@@ -113,7 +118,6 @@ GEM
     multi_json (1.6.1)
     nokogiri (1.5.6)
     orm_adapter (0.4.0)
-    pg (0.14.1)
     polyglot (0.3.3)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
@@ -211,11 +215,10 @@ DEPENDENCIES
   email_spec (>= 1.4.0)
   factory_girl_rails (>= 4.2.0)
   figaro (>= 0.5.3)
-  flickr_fu
+  flickr_fu!
   hub (>= 1.10.2)
   jquery-rails
   launchy (>= 2.2.0)
-  pg
   quiet_assets (>= 1.0.1)
   rails (= 3.2.8)
   rolify (>= 3.2.0)
