@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:joncon/flickr_fu.git
+  remote: https://git@github.com/joncon/flickr_fu.git
   revision: dfa516ea6476da901317331262beeabb97cf00a2
   specs:
     flickr_fu (0.3.2)
