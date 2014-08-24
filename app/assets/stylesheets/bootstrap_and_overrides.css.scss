@@ -1,3 +1,11 @@
+$navbarHeight: 25px;
+$navbarLinkColor: #000000;
+$textColor: #ffffff;
 @import "bootstrap";
-body { padding-top: 60px; }
+body { padding-top: 10px; }
 @import "bootstrap-responsive";
+@media (min-width: 1200px) {
+  .span12, .container {
+    width: 1350px;
+  }
+}
