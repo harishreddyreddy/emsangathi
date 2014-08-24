@@ -26,7 +26,7 @@ gem 'figaro', '>= 0.5.3'
 gem 'better_errors', '>= 0.6.0', :group => :development
 gem 'binding_of_caller', '>= 0.7.1', :group => :development, :platforms => [:mri_19, :rbx]
 gem 'hub', '>= 1.10.2', :require => nil, :group => [:development]
-gem 'flickr_fu', :git => 'https://git@github.com/joncon/flickr_fu.git'
+gem 'flickr_fu', :github => 'joncon/flickr_fu'
 
 group :development, :test do
   gem 'sqlite3-ruby', '~> 1.3.0', :require => 'sqlite3'
