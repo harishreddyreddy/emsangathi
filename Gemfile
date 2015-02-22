@@ -27,6 +27,7 @@ gem 'better_errors', '>= 0.6.0', :group => :development
 gem 'binding_of_caller', '>= 0.7.1', :group => :development, :platforms => [:mri_19, :rbx]
 gem 'hub', '>= 1.10.2', :require => nil, :group => [:development]
 gem 'flickr_fu', :github => 'joncon/flickr_fu'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'sqlite3-ruby', '~> 1.3.0', :require => 'sqlite3'
